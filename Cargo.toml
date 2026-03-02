@@ -1,0 +1,15 @@
+[package]
+name = "obsidian_note_rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "note"
+path = "src/main.rs"
+
+[dependencies]
+chrono = "0.4"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
